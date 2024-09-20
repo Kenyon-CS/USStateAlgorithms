@@ -4,7 +4,7 @@ CXXFLAGS = -std=c++11 -Wall -Wextra
 
 # Targets
 TARGET = state_demo
-SRCS = main.cpp
+SRCS = states.cpp
 OBJS = $(SRCS:.cpp=.o)
 
 # Default target
